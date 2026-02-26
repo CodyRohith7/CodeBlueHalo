@@ -1,14 +1,6 @@
 /***********************************************************************
  * CodeBlueHalo.AI v2.0 — ESP32 Emergency Sentinel
- * FINAL WORKING VERSION — ALL BUGS FIXED
- *
- * FIXES:
- *  1. PIR: GPIO 15 set to INPUT_PULLDOWN (no more stuck at 100%)
- *  2. ThingSpeak: F1=PIR%, F2=Temperature, F3=Humidity (correct order)
- *  3. OLED: Aggressive multi-pin/address scan (proven working)
- *  4. DHT11: Read every 3s only, cached between reads (no garbage)
- *  5. No sample/default data — all 0 until first real sensor read
- *
+ 
  * PINOUT:
  *  PIR         → GPIO 15
  *  DHT11 DATA  → GPIO 18
@@ -18,7 +10,7 @@
  *  BOOT button → GPIO 0
  *  LED/Buzzer  → GPIO 2
  *
- * ThingSpeak Channel: 3272549
+ * ThingSpeak Channel: YOUR CHANNEL ID 
  *  Field 1 = PIR %
  *  Field 2 = Temperature C
  *  Field 3 = Humidity %
@@ -57,10 +49,10 @@
 #define SPEED_OF_SOUND 0.0343f
 
 // ======================== NETWORK =====================================
-const char *WIFI_SSID = "Cody";
-const char *WIFI_PASSWORD = "Hinataaa";
-const unsigned long TS_CHANNEL = 3272549;
-const char *TS_WRITE_KEY = "DB1BJ38W0H1GO96D";
+const char *WIFI_SSID = "YOUR_WIFI";
+const char *WIFI_PASSWORD = "YOUR_WIFI_PASS";
+const unsigned long TS_CHANNEL = CHANNEL ID;
+const char *TS_WRITE_KEY = "YOUR_WRITE_API_KEY";
 const char *NTP_SERVER = "pool.ntp.org";
 const long GMT_OFFSET = 19800;
 
