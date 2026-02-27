@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚑 CodeBlueHalo.ai
+# CodeBlueHalo.ai
 **A Non-Contact Hostel & Lab Medical Emergency Sentinel**
 
 <p align="center">
@@ -15,23 +15,23 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 **CodeBlueHalo.ai** is an advanced, AI-powered campus safety and health-tech infrastructure system designed to protect college students with smart, real-time monitoring and instant alerts. 
 
 By eliminating the need for wearables, we adopt a **"Software-Heavy, Hardware-Light"** architectural approach. Our system continuously monitors environmental factors and behavioral patterns in hostels and laboratories to proactively detect anomalies, alert authorities, and save lives in critical time windows.
 
-## ✨ Key Features
+## Key Features
 
-- **🧠 Multi-Threat Detection Engine:** Identifies up to **7 distinct emergency classes**, ranging from medical emergencies to potential environmental hazards.
-- **⚡ Edge & Cloud Synergy:** 
+- **Multi-Threat Detection Engine:** Identifies up to **7 distinct emergency classes**, ranging from medical emergencies to potential environmental hazards.
+- **Edge & Cloud Synergy:** 
   - **Edge:** Utilizes lightweight **Temporal Convolutional Network Autoencoders (TCN-AE)** for instantaneous local anomaly detection (Zero-Loophole Escalation).
   - **Cloud:** Employs a robust **Transformer-based Multi-Sensor Fusion Engine** for deep relational analysis on the backend.
-- **👁️ Behavioral Drift Analysis:** Flags prolonged unusual passive states (e.g., severe lethargy) as potential mental health or silent physical health deteriorations.
-- **🛡️ Privacy-First ML:** Integrated **Federated Learning** ensures models learn from decentralized data points without compromising individual student privacy.
-- **📊 Explainable AI Dashboard:** Real-time, transparent visualizations of sensor data, threat levels, and alert histories for administrative oversight.
+- **Behavioral Drift Analysis:** Flags prolonged unusual passive states (e.g., severe lethargy) as potential mental health or silent physical health deteriorations.
+- **Privacy-First ML:** Integrated **Federated Learning** ensures models learn from decentralized data points without compromising individual student privacy.
+- **Explainable AI Dashboard:** Real-time, transparent visualizations of sensor data, threat levels, and alert histories for administrative oversight.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Domain | Technologies Used |
 | :--- | :--- |
@@ -41,7 +41,7 @@ By eliminating the need for wearables, we adopt a **"Software-Heavy, Hardware-Li
 | **Hardware / IoT** | Custom Embedded Systems (Sensors, Edge Processing Nodes) |
 | **Deployment** | Docker, ngrok (Tunneling) |
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to set up the project locally.
 
@@ -73,7 +73,7 @@ uvicorn main:app --reload
 ```
 *The backend API will run on `http://localhost:8000`.*
 
-## 🏆 The Hackathon Journey
+## The Hackathon Journey
 
 **HACK-O-HERTZ '26** was a high-energy, sleepless 36-hour sprint. From pitching the big idea to building hardware prototypes and delivering a 100% hardware+software integrated final demo, the journey was incredibly rewarding.
 
@@ -84,7 +84,7 @@ uvicorn main:app --reload
 
 We laughed, we coded through the night, and ultimately brought home a **Motivation Prize of ₹1000**, proudly securing a spot in the **Top 5 out of 100+ amazing teams!**
 
-## 🤝 The Team
+## The Team
 
 Huge shoutout to the rockstar developers and engineers who made this happen:
 - **Rohith G** (Team Leader)
