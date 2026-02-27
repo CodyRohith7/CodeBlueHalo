@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Top%205-HACK--O--HERTZ%20'26-FFD700?style=for-the-badge&logo=hackaday" />
-  <img src="https://img.shields.io/badge/Rank-Top%205-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-v2.0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
 </p>
 
